@@ -12,6 +12,10 @@ indent_size = 2
 indent_style = space
 indent_size = 2
 
+[*.css]
+indent_style = space
+indent_size = 2
+
 [*.bat]
 indent_style = tab
 indent_size = 4
