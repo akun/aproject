@@ -1,5 +1,5 @@
-Welcome to aproject's documentation!
-====================================
+aproject |version| documentation
+================================
 
 Contents:
 
