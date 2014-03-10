@@ -24,9 +24,11 @@ setup(
     ],
     package_dir={'aproject': 'aproject'},
     install_requires=[
-        'Django==1.5.5',
+        'Django==1.6.2',
+        'pylint==1.1.0',
         'nose==1.3.0',
-        'Sphinx==1.1.3',
+        'coverage==3.7.1',
+        'Sphinx==1.2.2',
     ],
     test_suite='nose.collector',
 )
