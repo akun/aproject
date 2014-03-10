@@ -1,6 +1,7 @@
 *.py[cod]
 *.swp
 docs/_build
+include
 
 # C extensions
 *.so
