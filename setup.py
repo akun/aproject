@@ -25,6 +25,7 @@ setup(
     package_dir={'aproject': 'aproject'},
     install_requires=[
         'Django==1.6.2',
+        'pylint==1.1.0',
         'nose==1.3.0',
         'coverage==3.7.1',
         'Sphinx==1.2.2',
