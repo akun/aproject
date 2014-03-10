@@ -26,6 +26,7 @@ setup(
     install_requires=[
         'Django==1.6.2',
         'nose==1.3.0',
+        'coverage==3.7.1',
         'Sphinx==1.2.2',
     ],
     test_suite='nose.collector',
