@@ -24,3 +24,9 @@ Changelog
 2014-03-10
 
 * init
+
+
+.. image:: https://d2weczhvl823v0.cloudfront.net/akun/aproject/trend.png
+   :alt: Bitdeli badge
+   :target: https://bitdeli.com/free
+
