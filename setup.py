@@ -5,10 +5,10 @@ import os
 import sys
 
 
-try:
-    from setuptools import setup
-except ImportError:
-    from distutils.core import setup
+from setuptools import setup, find_packages
+from pip.req import parse_requirements
+install_reqs = parse_requirements('requirements.txt')
+reqs = [str(ir.req) for ir in install_reqs]
 
 from aproject import VERSION
 
@@ -18,17 +18,11 @@ setup(
     version=VERSION,
     description='A Project Template',
     author='akun',
+    author_email='6awkun@gmail.com',
+    license='MIT License',
     url='https://github.com/akun/aproject',
-    packages=[
-        'aproject',
-    ],
-    package_dir={'aproject': 'aproject'},
-    install_requires=[
-        'Django==1.6.2',
-        'pylint==1.1.0',
-        'nose==1.3.0',
-        'coverage==3.7.1',
-        'Sphinx==1.2.2',
-    ],
+    package_dir={'': 'aproject'},
+    packages=find_packages('aproject'),
+    install_requires=reqs,
     test_suite='nose.collector',
 )
