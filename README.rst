@@ -27,6 +27,16 @@ Intro
 Changelog
 ---------
 
+0.0.2
+~~~~~
+
+2014-04-04
+
+* change Apache License to MIT License
+* improve Makefile
+* use requirements.txt style for libs
+* add sass for project: landscape.io, coveralls.io, bitdeli.com
+
 0.0.1
 ~~~~~
 
