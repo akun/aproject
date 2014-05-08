@@ -5,27 +5,43 @@ aproject
    :target: https://travis-ci.org/akun/aproject
    :alt: Build Status
 
-.. image:: https://landscape.io/github/akun/aproject/master/landscape.png
-   :target: https://landscape.io/github/akun/aproject/master
-   :alt: Code Health
-
-.. image:: https://coveralls.io/repos/akun/aproject/badge.png
-   :target: https://coveralls.io/r/akun/aproject
-   :alt: Coverage Status
-
 A Pyhton Project Template
 
 Intro
 -----
 
-* Lint: PyLint + JSHint
-* Unittest: nose + coverage
-* Document: Sphinx
-* CI: Travis-CI
-* File Format: EditorConfig
+* [o] Tools
+
+  + [o] Lint: PyLint + JSHint + https://landscape.io
+  + [o] Unittest: nose + tox
+  + [o] Test Coverage: coverage + https://coveralls.io
+  + [o] Document: Sphinx + https://readthedocs.org/
+  + [o] CI: https://travis-ci.org/
+  + [o] File Format: EditorConfig
+
+* [o] Projects
+
+  + [o] Python
+  + [ ] Django
+  + [ ] Bootstrap
+
+Usage
+-----
+
+::
+
+   pip install cookiecutter
+   cookiecutter https://github.com/akun/aproject.git
 
 Changelog
 ---------
+
+0.0.3
+~~~~~
+
+2014-05-10
+
+* using **cookiecutter** as project template generator
 
 0.0.2
 ~~~~~
@@ -44,8 +60,6 @@ Changelog
 
 * init
 
-
 .. image:: https://d2weczhvl823v0.cloudfront.net/akun/aproject/trend.png
    :alt: Bitdeli badge
    :target: https://bitdeli.com/free
-
