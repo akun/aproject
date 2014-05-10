@@ -1,4 +1,4 @@
-aproject |version| documentation
+{{ cookiecutter.repo_name }} |version| documentation
 ================================
 
 Contents:
