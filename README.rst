@@ -5,7 +5,7 @@ aproject
    :target: https://travis-ci.org/akun/aproject
    :alt: Build Status
 
-A Pyhton Project Template
+A Python Project Template
 
 Intro
 -----
