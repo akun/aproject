@@ -48,7 +48,12 @@ Changelog
 Contributing
 ------------
 
-TODO
+::
+
+   git clone git@github.com:{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.git
+   cd {{ cookiecutter.repo_name }}
+   virtualenv .
+   make
 
 Credits
 -------

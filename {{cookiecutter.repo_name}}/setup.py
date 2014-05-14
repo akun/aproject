@@ -4,11 +4,12 @@
 from setuptools import setup, find_packages
 from pip.req import parse_requirements
 
+from {{ cookiecutter.repo_name }} import VERSION
+
+
 def get_reqs():
     install_reqs = parse_requirements('requirements.txt')
     return [str(ir.req) for ir in install_reqs]
-
-from {{ cookiecutter.repo_name }} import VERSION
 
 
 setup(
