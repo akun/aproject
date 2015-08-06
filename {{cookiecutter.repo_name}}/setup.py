@@ -4,7 +4,7 @@
 from setuptools import setup, find_packages
 from pip.req import parse_requirements
 
-from {{ cookiecutter.repo_name }} import VERSION
+from {{ cookiecutter.repo_name }} import __version__
 
 
 def get_reqs():
@@ -14,7 +14,7 @@ def get_reqs():
 
 setup(
     name='{{ cookiecutter.project_name }}',
-    version=VERSION,
+    version=__version__,
     description='{{ cookiecutter.project_short_description }}',
     author='{{ cookiecutter.full_name }}',
     author_email='{{ cookiecutter.email }}',

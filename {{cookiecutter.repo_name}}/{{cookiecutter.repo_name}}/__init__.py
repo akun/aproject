@@ -1,5 +1,4 @@
 #!/usr/bin/env python
 
 
-VERSION = '{{ cookiecutter.version }}'
-
+__version__ = '{{ cookiecutter.version }}'
