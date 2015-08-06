@@ -26,6 +26,9 @@ html:
 htmlci:
 	curl -X POST http://readthedocs.org/build/{{ cookiecutter.repo_name }}
 
+sdist:
+	python setup.py register upload
+
 clean:
 	rm -rf *.egg-info
 	rm -rf build/*
