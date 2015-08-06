@@ -1,6 +1,7 @@
 *.egg-info
 *.py[cod]
 *.swp
+*venv
 .coverage
 .tox
 bin
