@@ -1,1 +1,1 @@
-cookiecutter>=0.7.0
+cookiecutter>=0.8.0
